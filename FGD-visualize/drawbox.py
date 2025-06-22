@@ -48,6 +48,6 @@ def draw_box(image_path, label_path):
     # 保存结果
     cv2.imwrite('gt.jpg', result_image)
 
-image_path = "/Users/kefanzhan/Desktop/Datasets/NWPU/images/train/308.jpg"
-label_path = "/Users/kefanzhan/Desktop/Datasets/NWPU/labels/train/308.txt"
+image_path = "Datasets/NWPU/images/train/308.jpg"
+label_path = "Datasets/NWPU/labels/train/308.txt"
 draw_box(image_path, label_path)
