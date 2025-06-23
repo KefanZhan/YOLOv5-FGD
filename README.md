@@ -35,8 +35,9 @@ We have concluded some Q&A in [QuestionAndAnswer.md](QuestionAndAnswer.md), hope
 
 ---
 ## Results
-In this section, we select mAP50 (mean Average Precision at 50% IoU) as indicator. <br>
-More visual and digital outcomes (e.g. loss curves and logs) can be seen in each result file. <br>
+In this section, we select mAP50 (mean Average Precision at 50% IoU) as metric indicator. <br>
+More visual and digital outcomes (e.g. loss curves and logs) can be seen in each result file,<br>
+for instance, [YOLOv5Pytorch/TeacherTraining/runs/train/exp/results.png](YOLOv5Pytorch/TeacherTraining/runs/train/exp/results.png) and [YOLOv5Pytorch/TeacherTraining/output.log](YOLOv5Pytorch/TeacherTraining/output.log). 
 
 |         |                PyTorch                |                Jittor                |
 |:-------:|:-------------------------------------:|:------------------------------------:|
