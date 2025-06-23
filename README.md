@@ -38,11 +38,11 @@ We have concluded some Q&A in [QuestionAndAnswer.md](QuestionAndAnswer.md), hope
 In this section, we select mAP50 (mean Average Precision at 50% IoU) as indicator. <br>
 More visual and digital outcomes (e.g. loss curves and logs) can be seen in each result file. <br>
 
-|         |                PyTorch                 |                Jittor                 |
-|:-------:|:--------------------------------------:|:-------------------------------------:|
-| Teacher | [90.3](YOLOv5Pytorch/TeacherTraining)  | [59.5](YOLOv5Jittor/TeacherTraining)  |
-| Student | [86.3](YOLOv5Pytorch/Student Training) | [53.8](YOLOv5Jittor/Student Training) |
-|Student+FGD|   [87.9](YOLOv5Pytorch/Student FGD)    |   [58.6](YOLOv5Jittor/Student FGD)    |
+|         |                PyTorch                |                Jittor                |
+|:-------:|:-------------------------------------:|:------------------------------------:|
+| Teacher | [90.3](YOLOv5Pytorch/TeacherTraining) | [59.5](YOLOv5Jittor/TeacherTraining) |
+| Student | [86.3](YOLOv5Pytorch/StudentTraining) | [53.8](YOLOv5Jittor/StudentTraining) |
+|Student+FGD|   [87.9](YOLOv5Pytorch/StudentFGD)    |   [58.6](YOLOv5Jittor/StudentFGD)    |
 
 Unfortunately, the YOLOv5 (Jittor) performs not well, <br>
 and we have not found the problem yet after controlling the model's architecture and hyperparameters in corresponding with the PyTorch version.
